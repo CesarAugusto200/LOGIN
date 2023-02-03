@@ -1,0 +1,94 @@
+body{ 
+        width: 644px;
+        height: 430px;
+      background-image: url(../img/Fondo.jpg)
+}
+
+.Conteiner{
+    display: flex;
+    flex-direction: column ;
+    position: absolute;
+    justify-content: space-around;
+    height: 401px; 
+    background: #2F6BA3;
+    border-radius: 10px;
+    left:   60%;
+    width: 300px;
+    align-items: center
+    
+    
+}
+
+input{
+    color: #000000;
+}
+
+
+.btn{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.2)
+    , rgba(255, 255, 255, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2),
+     rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 102, 255, 0.2), 
+     rgba(0, 102, 255, 0.2)), #87B7FF;
+}
+
+
+.text{
+background: #D9D9D9;
+
+}
+
+.Texto{
+    position: absolute;
+left: 10%;
+font-family: 'Inter';
+font-style: italic;
+font-weight: 800;
+font-size: 100px;
+line-height: 500px;
+color: #000000;
+}
+
+label{
+   display:  flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+div{
+    display:  flex;
+    flex-direction: column
+   
+  
+}
+
+datos{
+   display: flex;
+ justify-content: center;
+
+}
+
+.link{
+    color: #000000;
+    font-family: 'Inter';
+    font-style: italic;
+}
+
+.texto{
+    font-family: 'Inter';
+    font-style: italic;
+    color: #000000;
+}
+
+.estilo{
+    font-family: 'Inter';
+    font-style: italic;
+    color: #000000;
+  
+    
+}
+
+.boton{
+    color: #000000;
+    
+}
